@@ -22,8 +22,8 @@ int main()
     area = comp * larg;
     preco = area * valor;
 
-    printf("Area do terreno: %.1lf\n", area);
-    printf("Preco do terreno: %.1lf\n", preco);
+    printf("Area do terreno: %.2lf m2\n", area);
+    printf("Preco do terreno: %.2lf\n", preco);
 
     return 0;
 }
